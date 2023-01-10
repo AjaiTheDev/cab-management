@@ -1,0 +1,92 @@
+.inner-container-sign-up {
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.sign-up-section {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.sign-up-logo-section {
+    width: 50%;
+    height: 100%;
+    background-image: url(images/taton-moise-REM8rFPp0q8-unsplash.jpg);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.form-content-signup {
+    width: 100%;
+    height: 289px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.driver-form-content-signup {
+    width: 100%;
+    height: 289px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.signup-inner-section {
+    width: 352px;
+    height: 453px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 50px;
+
+}
+
+.driver-btn-signup {
+    margin-top: 13px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 221px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background: linear-gradient(.25turn, #e66465, #9198e5);
+    -webkit-background-clip: border-box;
+    background-clip: text;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.driver-inner-content {
+    width: 1000px;
+    height: 550px;
+    background-color: blue;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+}

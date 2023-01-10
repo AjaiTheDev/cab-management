@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(202, 222, 131); */
+    background-image: url(images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-container {
+    width: 1000px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-section {
+    width: 60%;
+    height: 100%;
+    background-image: url(images/taton-moise-REM8rFPp0q8-unsplash.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.login-section {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.logo-font {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.logo-my {
+    position: absolute;
+    bottom: 147px;
+    left: 20px;
+    font-size: 3rem;
+    color: white;
+}
+
+.logo-cab {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 8rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.font-b {
+    color: yellow
+}
+
+.login-inner-section {
+    width: 334px;
+    height: 429px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.welcome-span {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-font {
+    color: black;
+}
+
+.sign-in-font {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    margin-top: 5px;
+}
+
+.form-content {
+    width: 100%;
+    height: 289px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(161, 164, 209);
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-login {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 221px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background: linear-gradient(.25turn, #e66465, #9198e5);
+    -webkit-background-clip: border-box;
+    background-clip: text;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.btn-login:hover {
+    /* background-position: right center; */
+    background: linear-gradient(.25turn, #9198e5, #e66465);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.forgot-password {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+}
+
+
+.login-inner-section .sign-up-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-link a {
+
+    margin-left: 3px;
+    font-size: 1.1em;
+    color: #707070;
+    text-decoration: none;
+    font-weight: bold;
+    background: linear-gradient(.25turn, #e66465, #9198e5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sign-up-link a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
